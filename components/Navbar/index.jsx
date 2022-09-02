@@ -4,7 +4,7 @@ import Navitems from "./Navitems"
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-[#160040]/50 fixed top-0 z-50">
+    <div className="w-full bg-white/10 fixed top-0 z-50 backdrop-blur-md border-b border-white/30 rounded-b-md">
       <Container className="flex flex-row justify-between items-center py-4">
         <Logo/>
         <Navitems/>
