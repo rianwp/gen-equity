@@ -12,7 +12,7 @@ module.exports = {
     
     extend: {
       backgroundImage:{
-        'hero': "url('../public/img/bgcontent.svg')",
+        'home': "url('../public/img/bghome.svg')"
       }
     },
   },
