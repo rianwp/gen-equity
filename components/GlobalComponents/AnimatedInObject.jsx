@@ -6,6 +6,7 @@ const AnimatedInObject = ({children, className, animation}) => {
       variants={animation}
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true }}
       className={className}
     >
       {children}
