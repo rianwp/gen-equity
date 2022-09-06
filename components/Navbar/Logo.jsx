@@ -1,6 +1,11 @@
+import Link from "next/link"
+
 const Logo = () => {
   return (
-    <div><img className="w-10 h-10" src="../img/logo.svg" alt="" /></div>
+    <Link href="/">
+      <a><img className="h-10" src="../img/logo.png" alt="" /></a>
+    </Link>
+    
   )
 }
 
