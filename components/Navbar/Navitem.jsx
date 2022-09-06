@@ -1,6 +1,11 @@
-const Navitem = ({children, href}) => {
+import Link from "next/link"
+
+const Navitem = ({children, link}) => {
   return (
-    <a href={href} className="text-white opacity-80 font-lato hover:opacity-100 transition duration-200 px-4">{children}</a>
+    <Link href={link}>
+      <a className="text-white opacity-80 font-poppins hover:opacity-100 transition duration-200 px-4">{children}</a>
+    </Link>
+    
   )
 }
 
