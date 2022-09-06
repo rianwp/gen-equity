@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.neon-shadow{
+    text-shadow: 2px 2px 12px #00F0FF;
+}
+
+
 @layer base{
     /* latin-ext */
     @font-face {
