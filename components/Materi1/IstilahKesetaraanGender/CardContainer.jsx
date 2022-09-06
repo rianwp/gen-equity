@@ -3,24 +3,25 @@ import CardIstilahKesetaraanGender from "./CardIstilahKesetaraanGender"
 const CardContainer = () => {
   const dataCard = [
     {
-      title: "Yuk, pahami tentang kesetaraan gender",
-      link: "/kesetaraangender",
-      img: "../img/womenman.svg"
+      title: "Ketidakadilan Gender",
+      text: ""
     },
     {
-      title: "Kenali lika-liku menjadi perempuan",
-      link: "",
-      img: "../img/womenmatericard.svg"
+      title: "Pengarusutamaan Gender",
+      text: ""
     },
     {
-      title: "Stereotip laki-laki dalam masyarakat",
-      link: "",
-      img: "../img/manmatericard.svg"
+      title: "Kesenjangan Gender",
+      text: ""
     }
   ]
   return (
-    <div className="flex flex-row justify-between">
-          
+    <div className="flex flex-row sm:flex-nowrap flex-wrap justify-center">
+      {dataCard.map((card, index) => 
+        <CardIstilahKesetaraanGender>
+          {card.title}
+        </CardIstilahKesetaraanGender>
+      )}
     </div>
   )
 }
