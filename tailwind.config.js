@@ -12,7 +12,8 @@ module.exports = {
     
     extend: {
       backgroundImage:{
-        'home': "url('../public/img/bghome.svg')"
+        'home': "url('../public/img/bghome.svg')",
+        'materi1': "url('../public/img/bgmateri1.svg')",
       }
     },
   },
