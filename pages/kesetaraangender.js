@@ -1,8 +1,8 @@
 import Head from "next/head"
 import Container from "../components/GlobalComponents/Container"
-import Intermezzo1 from "../components/Materi/Intermezzo1"
-import PengertianKesetaraanGender from "../components/Materi/PengertianKesetaraanGender"
-import Survey from "../components/Materi/Survey"
+import Intermezzo1 from "../components/Materi1/Intermezzo1"
+import PengertianKesetaraanGender from "../components/Materi1/PengertianKesetaraanGender"
+import Survey from "../components/Materi1/Survey"
 
 const KesetaraanGender = () => {
   return (
