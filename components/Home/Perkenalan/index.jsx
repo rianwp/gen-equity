@@ -5,11 +5,11 @@ import TextPerkenalan from "./TextPerkenalan"
 const Perkenalan = () => {
   return (
     <Section>
-      <div className="w-full h-3/4 flex items-center justify-center flex-col text-center">
+      <div className="w-full h-full flex items-center justify-center flex-col text-center">
         <TextPerkenalan/>
-      </div>
-      <div className="float-right h-1/4">
-        <LebahPerkenalan/>
+        <div className="sm:self-end mt-8">
+          <LebahPerkenalan/>
+        </div>
       </div>
     </Section>  
   )
