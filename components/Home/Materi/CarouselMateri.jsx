@@ -137,7 +137,7 @@ const CarouselMateri = () => {
     <div className="flex flex-row items-center justify-center">
       {dataCard.map((card, index) => 
         <CardMateri key={index}>
-          <motion.img src={card.img} className="absolute z-10 p-4 top-0 w-full h-full"/>
+          <img src={card.img} className="absolute z-10 p-4 top-0 w-full h-full"/>
           <div className="z-20 absolute top-0 flex flex-col justify-center text-center items-center w-full h-full px-2">
             <p className="text-white font-poppins lg:text-2xl md:text-xl text-sm mt-4 font-light">
               {card.title}
