@@ -9,6 +9,7 @@ const CardMateri = ({children}) => {
   return (
     <motion.div
       variants={cardAnimation}
+      viewport={{ once: true }}
       initial="hidden"
       whileInView="visible"
       whileHover="hover"
