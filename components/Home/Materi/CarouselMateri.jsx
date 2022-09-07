@@ -115,9 +115,9 @@ const CarouselMateri = () => {
               className="relative w-full shrink-0 flex flex-row justify-center"
             >
               <CardMateri>
-                <motion.img src={card.img} className="absolute z-10 p-4 top-0 w-full h-full"/>
+                <img src={card.img} className="absolute z-10 p-4 top-0 w-full h-full"/>
                 <div className="absolute top-0 flex flex-col justify-center text-center items-center w-full h-full px-2">
-                  <p className="text-white font-poppins lg:text-2xl md:text-xl text-sm mt-4 font-light">
+                  <p className="text-white font-poppins md:text-xl text-sm mt-4 font-light">
                     {card.title}
                   </p>
                 </div>
