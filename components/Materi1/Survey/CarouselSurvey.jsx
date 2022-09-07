@@ -81,7 +81,7 @@ const CarouselSurvey = () => {
   }
 
   return(
-    <div className="relative lg:w-1/2 md:w-3/4 w-full bg-white rounded-xl overflow-hidden">
+    <div className="relative lg:w-1/2 md:w-3/4 w-full bg-white rounded-xl overflow-hidden my-4">
       <div className="absolute h-full w-full flex flex-row justify-between items-center">          
         <CarouselController onClick={clickSlideLeft} variant="left" bgColor="bg-[#160040]/50 lg:hover:bg-[#160040]"/>
         <CarouselController onClick={clickSlideRight} variant="right" bgColor="bg-[#160040]/50 lg:hover:bg-[#160040]"/>
