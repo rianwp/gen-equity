@@ -6,7 +6,7 @@ const SubTitleHero = ({children, variant}) => {
     bot:"lg:mt-16"
   }
   const subTitleAnimation ={
-    visible: { opacity: 1,  transition: { duration: 0.5, delay: 0.3} },
+    visible: { opacity: 1,  transition: { duration: 0.5, delay: 0.3 } },
     hidden: { opacity: 0}
   }
   const pickedVariant = addVariant[variant]
