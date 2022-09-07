@@ -6,7 +6,7 @@ const SubTitleHero = ({children}) => {
     hidden: { opacity: 0}
   }
   return (
-    <AnimatedInObject animation={subTitleAnimation} className="text-white font-poppins lg:text-2xl md:text-xl text-sm mt-4 font-light">{children}</AnimatedInObject>
+    <AnimatedInObject animation={subTitleAnimation} className="text-white font-poppins md:text-xl text-sm mt-4 font-light">{children}</AnimatedInObject>
   )
 }
 
