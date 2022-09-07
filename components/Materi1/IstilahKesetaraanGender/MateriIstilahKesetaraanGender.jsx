@@ -11,7 +11,7 @@ const MateriIstilahKesetaraanGender = ({children, key}) => {
       key={key}
       animate="visible"
       initial="hidden"
-      className="sm:w-3/4 w-full font-poppins sm:text-base text-xs text-white mx-auto text-justify"
+      className="sm:w-3/4 w-full font-poppins md:text-xl text-sm text-white mx-auto text-justify"
     >
       {children}
     </motion.div>
