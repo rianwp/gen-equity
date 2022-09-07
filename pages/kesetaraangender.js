@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Container from "../components/GlobalComponents/Container"
+import EndingMateri1 from "../components/Materi1/EndingMateri1"
 import Intermezzo1 from "../components/Materi1/Intermezzo1"
 import IstilahKesetaraanGender from "../components/Materi1/IstilahKesetaraanGender"
 import PengertianKesetaraanGender from "../components/Materi1/PengertianKesetaraanGender"
@@ -17,6 +18,7 @@ const KesetaraanGender = () => {
           <Intermezzo1/>
           <PengertianKesetaraanGender/>
           <IstilahKesetaraanGender/>
+          <EndingMateri1/>
         </Container>
       </div>
     </>
