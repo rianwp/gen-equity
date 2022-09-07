@@ -3,7 +3,7 @@ import AnimatedInObject from "../../GlobalComponents/AnimatedInObject"
 
 const TextAbout = () => {
   const aboutAnimation = {
-    visible: { opacity: 1, transition: { duration: 0.5 } },
+    visible: { opacity: 1, transition: { duration: 0.5, delay: 0.3 } },
     hidden: { opacity: 0 }
   }
   return (
