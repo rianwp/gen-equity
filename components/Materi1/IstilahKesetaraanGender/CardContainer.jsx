@@ -47,7 +47,7 @@ const CardContainer = () => {
         )}
       </div>
       <AnimatePresence>
-        <div className="min-h-[300px] mt-8">
+        <div className="min-h-[250px] mt-8">
           {dataCard[materiIndex].text}
         </div>
       </AnimatePresence>
