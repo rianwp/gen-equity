@@ -11,7 +11,7 @@ const SubTitleHero = ({children, variant}) => {
   }
   const pickedVariant = addVariant[variant]
   return (
-    <AnimatedInObject animation={subTitleAnimation} className={`text-white font-poppins lg:text-2xl md:text-xl text-sm ${pickedVariant} mt-4 font-light`}>{children}</AnimatedInObject>
+    <AnimatedInObject animation={subTitleAnimation} className={`text-white font-poppins md:text-xl text-sm ${pickedVariant} mt-4 font-light`}>{children}</AnimatedInObject>
   )
 }
 
