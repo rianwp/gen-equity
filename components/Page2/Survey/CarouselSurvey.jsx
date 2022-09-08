@@ -3,7 +3,7 @@ import CarouselController from "../../GlobalComponents/CarouselController"
 import { motion, useAnimation } from "framer-motion"
 import Survey2 from "./Survey2"
 import Survey3 from "./Survey3"
-import { useRef, useEffect } from "react"
+import { useRef } from "react"
 
 const CarouselSurvey = () => {
   const dataCarousel = [
