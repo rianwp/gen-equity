@@ -1,4 +1,4 @@
-import Chart from "./Chart"
+import Chart from "../../GlobalComponents/Chart"
 
 const Survey2 = () => {
   const surveyData = [
