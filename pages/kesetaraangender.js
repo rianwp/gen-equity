@@ -1,12 +1,12 @@
 import Head from "next/head"
 import Container from "../components/GlobalComponents/Container"
-import EndingMateri1 from "../components/Materi1/EndingMateri1"
-import Intermezzo1 from "../components/Materi1/Intermezzo1"
-import IstilahKesetaraanGender from "../components/Materi1/IstilahKesetaraanGender"
-import PengertianKesetaraanGender from "../components/Materi1/PengertianKesetaraanGender"
-import Survey from "../components/Materi1/Survey"
+import EndingMateri1 from "../components/Page2/EndingMateri1"
+import Intermezzo1 from "../components/Page2/Intermezzo1"
+import IstilahKesetaraanGender from "../components/Page2/IstilahKesetaraanGender"
+import PengertianKesetaraanGender from "../components/Page2/PengertianKesetaraanGender"
+import Survey from "../components/Page2/Survey"
 
-const KesetaraanGender = () => {
+const Page2 = () => {
   return (
     <>
       <Head>
@@ -25,4 +25,4 @@ const KesetaraanGender = () => {
   )
 }
 
-export default KesetaraanGender
+export default Page2
