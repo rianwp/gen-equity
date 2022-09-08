@@ -1,11 +1,11 @@
-import Hero from "../components/Home/Hero"
-import Perkenalan from "../components/Home/Perkenalan"
-import Materi from "../components/Home/Materi"
-import About from "../components/Home/About"
+import Hero from "../components/Page1/Hero"
+import Perkenalan from "../components/Page1/Perkenalan"
+import Materi from "../components/Page1/Materi"
+import About from "../components/Page1/About"
 import Container from "../components/GlobalComponents/Container"
 import Head from "next/head"
 
-const Home = () => {
+const Page1 = () => {
   return (
     <>
       <Head>
@@ -23,4 +23,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Page1
