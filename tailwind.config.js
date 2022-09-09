@@ -14,6 +14,8 @@ module.exports = {
       backgroundImage:{
         'home': "url('../public/img/bghome.svg')",
         'materi1': "url('../public/img/bgmateri1.svg')",
+        'materi2': "url('../public/img/bgmateri2.svg')",
+        'materi3': "url('../public/img/bgmateri3.svg')",
       }
     },
   },
