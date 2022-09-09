@@ -13,12 +13,12 @@ const CarouselMateri = () => {
     },
     {
       title: "Kenali lika-liku menjadi perempuan",
-      link: "",
+      link: "/perempuan",
       img: "../img/womenmatericard.svg"
     },
     {
       title: "Stereotip laki-laki dalam masyarakat",
-      link: "",
+      link: "/lakilaki",
       img: "../img/manmatericard.svg"
     }
   ]
@@ -117,7 +117,7 @@ const CarouselMateri = () => {
               <CardMateri variant="rectangle">
                 <img src={card.img} className="absolute z-10 p-4 top-0 w-full h-full"/>
                 <div className="absolute top-0 flex flex-col justify-center text-center items-center w-full h-full px-2">
-                  <p className="text-white font-poppins md:text-xl text-sm mt-4 font-light">
+                  <p className="text-white font-poppins md:text-xl text-sm mt-4 font-light z-20">
                     {card.title}
                   </p>
                 </div>
