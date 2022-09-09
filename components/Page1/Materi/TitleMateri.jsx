@@ -6,7 +6,7 @@ const TitleMateri = () => {
     hidden: { opacity: 0 }
   }
   return (
-    <AnimatedInObject animation={titleAnimation} className="text-white font-poppins md:text-4xl text-xl font-bold">Pilih Materi</AnimatedInObject>
+    <AnimatedInObject animation={titleAnimation} className="text-white font-poppins md:text-4xl text-xl font-bold neon-shadow">Pilih Materi</AnimatedInObject>
   )
 }
 
