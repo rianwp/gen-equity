@@ -13,10 +13,12 @@ const Page1 = () => {
       </Head>
       <div className="bg-home bg-cover bg-top bg-no-repeat overflow-hidden">
         <Container>
-          <Hero/>
-          <Perkenalan/>
-          <Materi/>
-          <About/>
+          <div className="px-4">
+            <Hero/>
+            <Perkenalan/>
+            <Materi/>
+            <About/>
+          </div>
         </Container>
       </div>
     </>
