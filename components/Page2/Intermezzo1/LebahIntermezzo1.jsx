@@ -6,7 +6,7 @@ const LebahIntermezzo1 = () => {
     hidden: { opacity: 0, x: 100 }
   }
   return (
-    <AnimatedInObject className="absolute z-0 -bottom-1 -right-16 w-[200px] sm:block hidden" animation={lebahAnimation}>
+    <AnimatedInObject className="absolute z-0 -bottom-1 -right-16 w-[175px] sm:block hidden" animation={lebahAnimation}>
       <img className="object-cover object-bottom w-full" src="../img/lebahintermezzo1.svg"/>
     </AnimatedInObject>
   )
