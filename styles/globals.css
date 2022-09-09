@@ -7,8 +7,21 @@
 }
 .card-shadow{
     box-shadow: 2px 2px 126px 1px rgba(0,240,255,0.26);
--webkit-box-shadow: 2px 2px 126px 1px rgba(0,240,255,0.26);
--moz-box-shadow: 2px 2px 126px 1px rgba(0,240,255,0.26);
+    -webkit-box-shadow: 2px 2px 126px 1px rgba(0,240,255,0.26);
+    -moz-box-shadow: 2px 2px 126px 1px rgba(0,240,255,0.26);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #130036;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f0041;
+    border-radius: 10px;
 }
 
 @layer base{
