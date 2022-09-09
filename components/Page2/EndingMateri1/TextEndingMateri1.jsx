@@ -1,4 +1,3 @@
-import Container from "../../GlobalComponents/Container"
 import AnimatedInObject from "../../GlobalComponents/AnimatedInObject"
 
 const TextEndingMateri1 = () => {
@@ -7,9 +6,9 @@ const TextEndingMateri1 = () => {
     hidden: { opacity: 0 }
   }
   return (
-    <Container className="lg:w-1/2 w-full lg:mt-8 mt-4">
+    <div className="lg:w-1/2 w-full lg:mt-8 mt-4">
       <AnimatedInObject animation={endingMateri1Animation} className="text-white font-poppins md:text-xl text-sm">Kesetaraan gender belum sepenuhnya tersebar dengan luas, bahkan hanya dengan pengertiannyapun masih banyak yang keliru. Bila hal tersebut dibiarkan berlarut-larut, dapat menyebabkan deskriminatif antara laki-laki dan perempuan. Tak jarang juga banyak yang keliru atau tidak setuju dengan kesetaraan gender itu sendiri. Nah, sudah saatnya kita bisa menggalakkan kesetaraan gender ini agar tidak banyak yang salah paham tentang kesetaraan gender itu sendiri.</AnimatedInObject>
-    </Container>
+    </div>
   )
 }
 
