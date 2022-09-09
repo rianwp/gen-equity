@@ -14,11 +14,13 @@ const Page2 = () => {
       </Head>
       <div className="bg-materi1 bg-cover bg-top bg-no-repeat overflow-hidden">
         <Container className="mt-4 sm:mt-0">
-          <Survey/>
-          <Intermezzo1/>
-          <PengertianKesetaraanGender/>
-          <IstilahKesetaraanGender/>
-          <EndingMateri1/>
+          <div className="px-4">
+            <Survey/>
+            <Intermezzo1/>
+            <PengertianKesetaraanGender/>
+            <IstilahKesetaraanGender/>
+            <EndingMateri1/>
+          </div>
         </Container>
       </div>
     </>
