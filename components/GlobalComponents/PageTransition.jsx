@@ -9,8 +9,7 @@ const PageTransition = ({children}) => {
   }
   return (
     <AnimatePresence
-      initial={false}
-      exitBeforeEnter
+      mode="wait"
     >
       <motion.div
         key={router.asPath}
