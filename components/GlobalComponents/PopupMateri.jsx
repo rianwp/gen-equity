@@ -44,8 +44,8 @@ const PopupMateri = ({ children, show }) => {
               <div className="relative z-10">
                 {children}
               </div>
-              <img className="absolute bottom-0 left-0 object-cover object-bottom" src="../img/bungakiri.svg"/>
-              <img className="absolute bottom-0 right-0 object-cover object-bottom" src="../img/bungakanan.svg"/>
+              <img className="rounded-bl-xl absolute bottom-0 left-0 object-cover object-bottom" src="../img/bungakiri.svg"/>
+              <img className="rounded-br-xl absolute bottom-0 right-0 object-cover object-bottom" src="../img/bungakanan.svg"/>
             </div>
           </motion.div>
         </motion.div>
