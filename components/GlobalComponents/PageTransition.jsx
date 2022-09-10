@@ -12,7 +12,7 @@ const PageTransition = ({children}) => {
       mode="popLayout"
     >
       <motion.div
-        key={router.asPath}
+        key={router.route}
         variants={pageAnimation}
         animate="in"
         initial="out"
