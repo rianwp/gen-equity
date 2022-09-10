@@ -1,7 +1,7 @@
 import { motion, useAnimation } from "framer-motion"
 import CardButton from "../../GlobalComponents/CardButton"
 import CardMateri from "../../GlobalComponents/CardMateri"
-import { useRef } from "react"
+import { useState, useEffect, useRef } from "react"
 import CarouselController from "../../GlobalComponents/CarouselController"
 
 const CarouselMateri = () => {
@@ -22,15 +22,15 @@ const CarouselMateri = () => {
       img: "../img/manmatericard.svg"
     }
   ]
-  // const [windowWidth, setWindowWidth] = useState(0)
-  // useEffect(()=>{
-  //   if(typeof window !== "undefined"){
-  //     setWindowWidth(window.innerWidth)
-  //     window.addEventListener('resize', () => {
-  //       setWindowWidth(window.innerWidth)
-  //     })
-  //   }
-  // },[])
+  const [windowWidth, setWindowWidth] = useState(0)
+  useEffect(()=>{
+    if(typeof window !== "undefined"){
+      setWindowWidth(window.innerWidth)
+      window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth)
+      })
+    }
+  },[])
 
   const controls = useAnimation()
 
@@ -89,11 +89,11 @@ const CarouselMateri = () => {
       })
     }
   }
-  // useEffect(() => {
-  //   if(windowWidth > 500){
-  //     slideLength.current = 0
-  //   }
-  // },[windowWidth])
+  useEffect(() => {
+    if(windowWidth > 500){
+      slideLength.current = 0
+    }
+  },[windowWidth])
 
   return (
     <>
