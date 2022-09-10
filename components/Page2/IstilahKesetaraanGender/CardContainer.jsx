@@ -12,7 +12,7 @@ const CardContainer = () => {
               <div className="mb-4 font-poppins text-white sm:text-xl text-base text-center font-bold">
                 Ketidakadilan Gender
               </div>
-              Nah, sekarang kita akan membahas keadilan nih sobat GE. Jadi,   dalam keadilan gender disini sendiri merupakan bentuk yang adil dalam memperlakukan perempuan dan laki-laki. Jadi, mulai sekarang sobat GE jangan ada lagi yang membeda bedakan ya. Agar nantinya, tidak ada lagi kesenjangan gender.
+              Nah, sekarang kita akan membahas keadilan nih sobat GE. Jadi,   dalam keadilan gender disini sendiri merupakan bentuk yang adil dalam memperlakukan perempuan dan laki-laki. Jadi, mulai sekarang sobat GE jangan ada lagi yang membeda bedakan ya. Agar nantinya, tidak ada lagi ketidakadilan gender.
             </MateriIstilahKesetaraanGender>
     },
     {
