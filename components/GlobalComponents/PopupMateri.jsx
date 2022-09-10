@@ -10,7 +10,7 @@ const PopupMateri = ({ children, show }) => {
     if(isShow){
       document.body.style.overflow = 'hidden'
     } else{
-      document.body.style.overflow = 'visible'
+      document.body.style.overflow = 'unset'
     }
   }, [isShow])
   const bgAnimation = {
