@@ -22,6 +22,16 @@ const CarouselMateri = () => {
       img: "../img/manmatericard.svg"
     }
   ]
+  // const [windowWidth, setWindowWidth] = useState(0)
+  // useEffect(()=>{
+  //   if(typeof window !== "undefined"){
+  //     setWindowWidth(window.innerWidth)
+  //     window.addEventListener('resize', () => {
+  //       setWindowWidth(window.innerWidth)
+  //     })
+  //   }
+  // },[])
+
   const controls = useAnimation()
 
   const handleDrag = (event, info) => {
@@ -79,6 +89,12 @@ const CarouselMateri = () => {
       })
     }
   }
+  // useEffect(() => {
+  //   if(windowWidth > 500){
+  //     slideLength.current = 0
+  //   }
+  // },[windowWidth])
+
   return (
     <>
       <div className="relative w-full sm:hidden block">
