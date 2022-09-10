@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Section>
       <div id="tentang" className="w-full h-full flex items-center justify-center flex-col text-center">
-        <TitleAbout>Gen Equity</TitleAbout>
+        <TitleAbout/>
         <TextAbout/>
       </div>
     </Section>
