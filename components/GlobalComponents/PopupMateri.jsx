@@ -14,7 +14,6 @@ const PopupMateri = ({ children, show }) => {
     }
   }, [isShow])
   const bgAnimation = {
-    initial: { opacity: 0 },
     in: { opacity: 1,  transition: { duration: 0.3 } },
     out: { opacity: 0,  transition: { duration: 0.3 } }
   }
@@ -29,7 +28,7 @@ const PopupMateri = ({ children, show }) => {
         <motion.div
           key="popup"
           variants={bgAnimation}
-          initial="initial"
+          initial="out"
           animate="in"
           exit="out"
           className="fixed top-0 left-0 z-50 w-full h-screen bg-black/50 flex flex-row items-center justify-center"
@@ -39,13 +38,15 @@ const PopupMateri = ({ children, show }) => {
             initial="initial"
             animate="in"
             exit="out"
-            className="relative lg:w-1/2 md:w-3/4 w-full bg-[#540062] rounded-xl sm:p-8 p-4 min-h-[500px] max-h-[calc(100%-2rem)] overflow-auto m-4"
+            className="relative lg:w-1/2 md:w-3/4 w-full max-h-[calc(100%-2rem)] bg-[#540062] rounded-xl overflow-auto m-4"
           >
-            <div className="relative z-10 w-full">
-              {children}
+            <div className="relative z-10 w-full sm:p-8 p-4 min-h-[500px] max-h-[calc(100%-2rem)]">
+              <div className="relative z-10">
+                {children}
+              </div>
+              <img className="absolute bottom-0 left-0 object-cover object-bottom" src="../img/bungakiri.svg"/>
+              <img className="absolute bottom-0 right-0 object-cover object-bottom" src="../img/bungakanan.svg"/>
             </div>
-            <img className="absolute bottom-0 left-0 object-cover object-bottom" src="../img/bungakiri.svg"/>
-            <img className="absolute bottom-0 right-0 object-cover object-bottom" src="../img/bungakanan.svg"/>
           </motion.div>
         </motion.div>
       )}
