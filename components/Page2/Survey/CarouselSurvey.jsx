@@ -23,7 +23,7 @@ const CarouselSurvey = () => {
 
   const controls = useAnimation()
 
-  const handlePan = (event, info) => {
+  const handleDrag = (event, info) => {
     controls.set({
       x: info.offset.x
     })
@@ -31,7 +31,7 @@ const CarouselSurvey = () => {
 
   const slideLength = useRef(0)
   
-  const handlePanEnd = (event, info) => {
+  const handleDragEnd = (event, info) => {
     const x = info.offset.x
     if(x < -50 && slideLength.current < 200){
       slideLength.current += 100
@@ -93,9 +93,14 @@ const CarouselSurvey = () => {
         animate={controls}
       >
         {dataCarousel.map((carousel, index) => 
-          <motion.div key={index}
-            onPan={handlePan}
-            onPanEnd={handlePanEnd}
+          <motion.div 
+            key={index}
+            drag="x"
+            dragConstraints={{left: 0, right: 0}}
+            onDrag={handleDrag}
+            onDragEnd={handleDragEnd}
+            dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+            dragElastic={0.1}
             className="w-full shrink-0 flex flex-row justify-center"
           >
             <div className="w-full p-1">
