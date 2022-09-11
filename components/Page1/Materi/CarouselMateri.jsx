@@ -14,7 +14,7 @@ const CarouselMateri = () => {
     {
       title: "Kenali lika-liku menjadi perempuan",
       link: "/perempuan",
-      img: "../img/womenmatericard.svg"
+      img: "../img/womenmatericard.svg" //source: https://www.pngegg.com/id/png-dippg/download
     },
     {
       title: "Stereotip laki-laki dalam masyarakat",
@@ -94,7 +94,6 @@ const CarouselMateri = () => {
         >
           {dataCard.map((card, index) => 
             <motion.div
-              
               key={index}
               drag="x"
               dragConstraints={{left: 0, right: 0}}
