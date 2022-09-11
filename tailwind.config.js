@@ -13,8 +13,8 @@ module.exports = {
     extend: {
       backgroundImage:{
         'home': "url('../public/img/bghome.svg')",
-        'materi1': "url('../public/img/bgmateri1.svg')",
-        'materi2': "url('../public/img/bgmateri2.svg')",
+        'materi1': "url('../public/img/bgmateri1.svg')", //source: https://www.pngegg.com/id/png-bhnus/download
+        'materi2': "url('../public/img/bgmateri2.svg')", //source: https://www.pngegg.com/id/png-dippg/download
         'materi3': "url('../public/img/bgmateri3.svg')",
       }
     },
