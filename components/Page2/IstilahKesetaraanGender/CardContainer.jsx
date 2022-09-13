@@ -33,7 +33,7 @@ const CardContainer = () => {
               <div className="mb-4 font-poppins text-white sm:text-xl text-base text-center font-bold">
                 Kesenjangan Gender
               </div>
-              Sobat GE tau gak sih, kalo kesenjangan gender itu masih banyak terjadi dilapisan masyarakat. Kesenjangan gender sendiri tentunya membawa dampak yang negative juga bagi generasi muda. Untuk itu, kami Team GE dan kamu sobat GE mari ajak orang sekitar kita untuk lebih peduli dengan kesenjangan ini. Agar nantinya, tercipta generasi-generasi baru yang lebih menaruh perhatian untuk menuntaskan kesenjangan yang ada sekarang ini. 
+              Sobat GE tau gak sih, kalo kesenjangan gender itu masih banyak terjadi dilapisan masyarakat. Kesenjangan gender sendiri tentunya membawa dampak yang negative juga bagi generasi muda. Untuk itu, kami Tim GE dan kamu sobat GE mari ajak orang sekitar kita untuk lebih peduli dengan kesenjangan ini. Agar nantinya, tercipta generasi-generasi baru yang lebih menaruh perhatian untuk menuntaskan kesenjangan yang ada sekarang ini. 
             </MateriIstilahKesetaraanGender>
     }
   ]
